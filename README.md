@@ -1,5 +1,5 @@
-# Kubernetes-Zero-to-Hero
-Creating this repo with an intent to make Kubernetes easy for begineers. This is a work-in-progress repo.
+# How to Manage Hundreds of Kubernetes Clusters??? | KOPS
+This is a work-in-progress repo.
 
 ## Kubernetes Installation Using KOPS on EC2
 
@@ -34,7 +34,7 @@ pip3 install awscli --upgrade
 export PATH="$PATH:/home/ubuntu/.local/bin/"
 ```
 
-### Install KOPS (our hero for today)
+### Install KOPS
 
 ```
 curl -LO https://github.com/kubernetes/kops/releases/download/$(curl -s https://api.github.com/repos/kubernetes/kops/releases/latest | grep tag_name | cut -d '"' -f 4)/kops-linux-amd64
